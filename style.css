@@ -11,8 +11,13 @@
 {
     width: 88px;
     height: 96px;
-    margin-left: 30px;
+    margin-left: 80px;
     margin-top: -46px;
+}
+#sign-in-link
+{
+    margin-left: 90px;
+    color: gold;
 }
 #sending-choices
 {
