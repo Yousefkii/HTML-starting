@@ -1,0 +1,56 @@
+#header_nav
+{
+    background-color:purple;
+    height: 109px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -21px;
+}
+#company-logo
+{
+    width: 88px;
+    height: 96px;
+    margin-left: 30px;
+    margin-top: -46px;
+}
+#sending-choices
+{
+    margin-left: 200px;
+}
+#backage
+{
+    margin-left: -8px;
+}
+#support 
+{
+    margin-left: -8px;
+}
+#account
+{
+    margin-left: -8px;
+}
+.nav-selections
+{
+    background-color: purple;
+    border-color: purple;
+    color:white;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    margin-top: -8px;
+    font-size: large;
+    border: 0px;
+}
+#nav-links
+{
+    background-color:rgb(231, 98, 231);
+    height: 150px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -21px;
+}
+.nav-options
+{
+     
+}
