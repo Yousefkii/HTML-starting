@@ -1,3 +1,7 @@
+body
+{
+    counter-reset: first-counter -3;
+}
 #header_nav
 {
     background-color:purple;
@@ -23,7 +27,7 @@
 }
 #sending-choices
 {
-    margin-left: 25%;
+    margin-left: 15%;
 }
 #backage
 {
@@ -49,6 +53,13 @@
     font-size: large;
     border: 0px;
 }
+.nav-selections:hover
+{
+    background-color:rgb(231, 98, 231) ;
+    color: purple;
+    font-weight: bold;
+    font-style: italic;
+}
 #nav-links
 {
     background-color:rgb(231, 98, 231);
@@ -67,6 +78,7 @@
     background-attachment:fixed;
     background-size:cover;
     background-position: bottom;
+    margin-right: -8px;
 }
 #body-bachground-color
 {
@@ -78,11 +90,128 @@
     background-size: cover;
     border-top-right-radius: 300px;
     border-bottom-right-radius: 300px;
-    margin-top: -322px;
+    margin-top: -322px; 
+    margin-left: -8px;
+}
+#contianer-motion
+{
+ margin-top: 4px;
+ height: 449px;
+ background: linear-gradient(#3c0497, #f2f2f2);
+}
+.motions
+{
+    border-width: 1px 1px 1px 1px ;
+    border-style: groove groove solid solid;
+    border-radius: 26%;
+    margin-left: 8px; 
+    height: 429px;
+    width: 400px;
+    background: linear-gradient(#182486, #f2f2f2);
+}
+#frist-motion
+{
+  float: left;
+  position: relative;
+}
+.magnifying-glass-location
+{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+#second-motion
+{
+    margin-left:148px; 
+    float: left;
+}
+#third-motion
+{
+    float: right;
+}
+.cards-headers
+{
+    text-align: center;
+    margin-top: 62px;
+    color: gold;
 }
 #hi-body
 {
     text-align: center;
     vertical-align: middle;
     line-height: 300px
+}
+.send_buttons{
+    width: 141px;
+    height: 145px;
+    border-radius: 39px;
+    margin-top: 88px;
+    font-size: x-large;
+    background-color: thistle;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 145px;
+    color: #9198e5;
+    border-color: #9198e5;
+    background-color: gray;
+    visibility: visible;
+}
+.send_buttons:hover{
+    color:gray;
+    background-color: #9198e5;
+}
+#domicticly{
+    margin-left: 21px;
+    float: left;
+}
+#globaly{
+    margin-right:16px;
+    float: right;
+    
+}
+#globaly_det{
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 25px;
+}
+.buttooon{
+    margin-left: 40px;
+}
+.ch{
+    background-color: #389d5d;
+    width: 125px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+.ch:hover{
+    background-color: #9198e5;
+    border-radius: 10px;
+}
+#contenents_cho{
+    width: 200px;
+    border-radius: 9px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #389d5d;
+
+}
+#cont-but
+{
+    background-color: rgb(127, 23, 127);
+    color: rgb(143, 206, 226);
+    border-radius: 100%;
+    position:fixed ;
+    bottom: 52px;
+    right: 52px;
+    padding: 5px;
+    width: 108px;
+    height: 70px;
+}
+ol li ::before
+{
+    counter-increment: first-counter;
+    content:counter(first-counter) ;
 }
