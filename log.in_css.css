@@ -1,0 +1,40 @@
+#fields{
+    
+    width: 623px;
+    height: 400px;
+    background-image: url("shipping\ bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 24%;
+    left: 34%;
+    vertical-align: middle;
+    text-align: center;
+   /* line-height: 200px; */
+}
+input{
+    width: 168px;
+    height: 30px;
+    border-radius: 5px;
+    display:inline-block ;
+}
+label{
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    margin-right: 18px;
+    color: #8b5414;
+}
+#div-di{
+    position: absolute;
+    top: 43%;
+    left: 26%;
+}
+span{
+    display: block;
+    margin-bottom: 10px;
+}
+#subm{
+width: 58px;
+border-radius: 7px;
+}
