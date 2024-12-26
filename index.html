@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="deescription" content="as a start we want to know the mission of everything around us">
+    <meta name="description" content="as a start we want to know the mission of everything around us">
     <meta name="keywords" content="HTML,css,js,starting,coding">
     <meta name="author" content="youssef Hegazy">
     <title>frist try</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4c19b9babd.js" crossorigin="anonymous"></script>
 </head>
 <body>
-     <div id="nav-links">
+    <header>
+        <div id="nav-links">
         <nav id="header_nav">
-            <img style="background-color: purple; max-width: fit-content; height: 62px;">
+            <img style="background-color: purple; background-attachment:fixed;background-size: cover; height: 62px;">
             <select class="nav-selections" id="sending-choices" name="sending">
                 <option name="sending">sending</option>
                 <option name="sending" style="margin-top: 5px;border-bottom: 1px; border-color:teal;">sending localy</option>
@@ -41,19 +44,63 @@
                 <option name="account">manage reports</option>
                 <option name="account">open an account</option>
             </select>
-            <a id="sign-in-link" href="log in.html" title="log in/sign up" target="_blank" >log in/sign up</a>
+            <a id="sign-in-link" href="log in.html" title="log in/sign up" target="_blank" >log in/sign up
+            <i class="fa-regular fa-circle-user fa-xl" id="login-logo" style="margin-left: 10px; "></i></a>
+            <i id="three-strips" class="fa-solid fa-list fa-2xl"></i>
         <div>
-            <a id="logo-link" href="index.html" target="">
+            <a id="logo-link" href="index.html" target="_self">
             <img id="company-logo" src="Untitled design.png" alt="shipping company logo" title="Yous.co. home page" >
             </a>
         </div>
         </nav>
     </div>
-    </header>
     <div id="body-background">
         <div id="body-bachground-img"></div>
         <div id="body-bachground-color"><h1 id="hi-body">yousco for shipping services</h1></div>
     </div>
+    </header>
+     
+    <div id="contianer-motion">
+
+        <div class="motions" id="frist-motion">
+           <h2 class="cards-headers">sending packages <i class="fa-solid fa-truck-fast fa-beat-fade"></i></h2>
+           <div id="sending_buttons">
+             <button class="send_buttons" id="domicticly" value="domicticly" onclick="domicticly()">domicticly</button>
+             <button class="send_buttons"  id="globaly" value="globaly" onclick="globaly()">globaly</button>
+           </div>
+           <div id="globaly_det" hidden>
+              <select id="contenents_cho" vlaue="",placeholder="choose the country">
+                <option>choose your country</option>
+                <option> Euroupe</option>
+                <option>America</option>
+                <option>Africa</option>
+                <option>Asia</option>
+              </select>
+              <div id="buttooon">
+              <button class="ch" id="box" onclick="package()"> package </button>
+              <button class="ch" id="docu" onclick="documents()">documents</button>
+              </div>
+              <button id="butt" onclick="butt()">butthole</button>
+           </div>
+        </div>
+
+        <div class="motions" id="second-motion">
+            <h2 class="cards-headers">track it <i class="fa-solid fa-magnifying-glass-location fa-beat-fade fa-lg"></i></h2>
+            
+        </div>
+        
+        <div class="motions" id="third-motion">
+            <h2 class="cards-headers">calculate your package <i class="fa-solid fa-calculator fa-beat-fade"></i></h2>
+           
+        </div>
+    </div>
+
+
+
+
+
+
+
     <h1>the start of being rich</h1>
     <br>
     <hr>
@@ -69,27 +116,26 @@
          the new CEO is a person with a <ins>vision</ins> and long terms plans that may help the company to go throgh some tuagh challanges
          that maneger's name is <mark>YOUSEFKII</mark>
      </p>
-     <h2>some of the good points of him</h2>
+     <button id="cont-but">contact us</button>
+     <h2 >some of the good points of him</h2>
      <ul>
         <li>passionate</li>
         <li>displine</li>
         <li>patiance
-            <ol>
+            <ol id="ol-features">
                 <li>first get to know the problem first</li>
                 <li>knows the reason of it</li>
                 <li>see the possible options</li>
-
             </ol>
         </li>
         <li>leader
         </li>
      </ul>
-     <hi>now lets see the time he can attend to the company</hi>
-    </ul>
     <a href="second try.html" target="_blank">
-        <button style="background-color: azure;color: blueviolet; border-radius: 3px;">
+        <button style="background-color: azure;color: blueviolet; border-radius: 5px;width: 75px;">
             time table
         </button>
     </a>
+    <script src="JS-code.js"></script>
 </body>
 </html>
