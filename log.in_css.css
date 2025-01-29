@@ -16,7 +16,7 @@ input{
     width: 168px;
     height: 30px;
     border-radius: 5px;
-    display:inline-block ;
+    display:block ;
 }
 label{
     font-size: large;
@@ -24,15 +24,12 @@ label{
     font-style: italic;
     margin-right: 18px;
     color: #8b5414;
+    display: inline;
 }
 #div-di{
     position: absolute;
     top: 43%;
     left: 26%;
-}
-span{
-    display: block;
-    margin-bottom: 10px;
 }
 #subm{
 width: 58px;
