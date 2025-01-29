@@ -69,18 +69,27 @@
              <button class="send_buttons"  id="globaly" value="globaly" onclick="globaly()">globaly</button>
            </div>
            <div id="globaly_det" hidden>
-              <select id="contenents_cho" vlaue="",placeholder="choose the country">
+            <label id="global-drop-lab">your continent</label>
+              <select class="contenents_cho" vlaue="",placeholder="choose the country" onchange="continent(this)">
+                <option value="not_choice">choose your continent</option>
+                <option value="Euroupe"> Euroupe</option>
+                <option value="America">America</option>
+                <option value="Africa">Africa</option>
+                <option value="Asia">Asia</option>
+              </select>
+              <!-- <label id="global-drop-lab">your country</label>
+              <select id="contry_cho" vlaue="",placeholder="choose the country">
                 <option>choose your country</option>
                 <option> Euroupe</option>
                 <option>America</option>
                 <option>Africa</option>
-                <option>Asia</option>
-              </select>
+                <option>Asia</option> 
+              </select> -->
               <div id="buttooon">
               <button class="ch" id="box" onclick="package()"> package </button>
               <button class="ch" id="docu" onclick="documents()">documents</button>
               </div>
-              <button id="butt" onclick="butt()">butthole</button>
+              <button id="butt" onclick="butt()">lime</button>
            </div>
         </div>
 
@@ -105,7 +114,7 @@
     <br>
     <hr>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia magni nisi iusto dicta consequatur voluptate esse atque ratione eaque obcaecati rerum ut fuga perferendis quasi voluptates architecto, nam molestiae dolorum. </p>
-    <!--this not gonna be shown on the page for the user-->
+     <!-- this not gonna be shown on the page for the user -->
     <a href="second try.html" target=_blank>this the link you need to click on</a>
     <br>
     <a href="http//:www.google.com" target="_blank" title="click on me to see the greetness">
