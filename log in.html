@@ -11,16 +11,13 @@
 <body style="background-color: rgb(160, 96, 219);">
     <div id="fields">
           <div id="div-di">
-            <span>
+            <form id="login_form"> 
                     <label id="firlab" class="inputs" name="userName" for="userName">user name</label>
-                    <input type="text" class="inputs" id="userName" placeholder="username" name="userName" value="" required >
-            </span>
-            <span>
-                     <label id="seclab" name="pass" class="inputs" for="pass"> password</label>
+                    <input type="text" class="inputs" id="US" placeholder="username" name="userName" value="" required >
+                    <label type="password" id="seclab" name="pass" class="inputs" for="pass"> password</label>
                      <input type="password" class="inputs" id="pass" placeholder="password" name="pass" value="" required>
-                     
-            </span>
-            <input type="button" id="subm" value="Do it!" onclick="check()">
+                     <input type="submit" id="subm" value="Do it!" onsubmit="check()">
+            </form>
            </div>
            
     </div>
