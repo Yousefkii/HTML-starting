@@ -1,38 +1,27 @@
+//window.onload(document.getElementById("US").focus());
 
-//logging in function
-console.log(userName);
-function check(){
-    let userName = document.getElementById('userName').value;
-let password = document.querySelector('#pass').value;
-if (userName === 'youssef' && password === '12345') {
-    alert('all good dude');
-    let userName = document.querySelector('#userName').value ="";
-    let password = document.querySelector('#pass').value = "";
-   
-    
-    let
-    return;
-}
-else if (userName === 'youssef hegazy' && password !== '12345') {
-    alert('sorry but only the password is wrong');
-    document.querySelector('#pass').value = "";
-}
-else{
-    alert('sorry but only the username is wrong');
-    document.querySelector('#userName').value ="";
-document.querySelector('#pass').value = "";
-let divo = document.createElement("div");
-divo.className ="product"
-document.body.appendChild(divo);
-for (let i = 0; i < 100; i++) {
-    let H3 = document.createElement("h3");
-    let paragraph = document.createElement ("p");
-    let p_content = document.createTextNode("product for osama ElZero");
-    let h3_content = document.createTextNode("H3 for osama Elzero");
-    H3.appendChild(h3_content);
-    paragraph.appendChild(p_content);
-    divo.appendChild(H3);
-    divo.appendChild(paragraph);
-}
-}
-}
+let timer = setTimeout(() => {
+    let have_acc = confirm("Do you even have an account?");
+    if (have_acc) {
+        document.getElementById("US").focus();
+    } else {
+        window.close();
+    }
+}, 3000);
+
+// Form validation on submit
+document.getElementById("login_form").addEventListener('submit', function (e) {
+    let UserName = document.querySelector("#US").value.trim();
+    let password = document.querySelector("#pass").value.trim();
+
+    if (UserName === "" || password === "") {
+        e.preventDefault();
+        alert("Please fill in all input fields.");
+    } else if (UserName.length < 3) {
+        e.preventDefault();
+        alert("Username must be at least 3 characters long.");
+    }
+});
+
+
+
