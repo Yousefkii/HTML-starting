@@ -231,3 +231,40 @@ ol li ::before
     counter-increment: first-counter;
     content:counter(first-counter) ;
 }
+#frist_group{
+    position: absolute;
+    height: fit-content;
+    margin-left: 9%;
+    margin-top: 3%;
+}
+.head_link{
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 5px;
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 30%;
+}
+.footer_links{
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    margin-top: -7px;
+    text-decoration: none;
+    display: flex;
+    
+}
+#footer_design{
+    float: right;
+    height: 370px;
+    width: 69%;
+    background-color: purple;
+    border-top-left-radius: 100%;
+}
+footer
+{
+    height: 370px;
+    background-color: black;
+    border-top-right-radius: 100%;
+}
