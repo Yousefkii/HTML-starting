@@ -221,7 +221,38 @@ function package()
 }
 function documents()
 {
+if (document.querySelector(".docs_numbers" )) {
+  console.log("Dropdown already created!");
+  return;
+}
+  //removing the buttons once the useer chossses
+    document.querySelector("#box").style.opacity="0";
+    document.querySelector("#docu").style.opacity="0";
 
+    let label_docu = document.createElement("label");
+    label_docu.textContent= "number of documents";
+    label_docu.classList.add("address_label");
+
+    let num_docs = document.createElement("input");
+    num_docs.classList.add( "docs_numbers","contenents_cho");
+    num_docs.style.width ="105px";
+    num_docs.style.backgroundColor ="lightblue";
+    num_docs.setAttribute("placeHolder",'number of docs');
+
+    //appending in the DOM
+    document.querySelector("#buttooon").appendChild(label_docu);
+    document.querySelector("#buttooon").appendChild(num_docs);
+
+    document.addEventListener('change', ()=>{
+      switch (num_docs) {
+        case 'write':
+          new_menu.focus();
+          break;
+      
+        default:
+          break;
+      }
+    })
 }
 function butt(){
   let pp = document.createElement("p");
