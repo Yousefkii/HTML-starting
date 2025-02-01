@@ -255,6 +255,29 @@ if (document.querySelector(".docs_numbers" )) {
       }
     })
 }
+function scrol (){
+  window.scrollTo({
+    left :0,
+   top :1000,
+   behavior:"smooth",
+
+  });
+ 
+};
+window.onscroll = function(){
+  if (scrollY >= 800) {
+    document.querySelector("#scroll_up").style.display ="block";
+  }
+  else{
+    document.querySelector("#scroll_up").style.display ="none";
+  }
+}
+function go_uo(){
+  window.scrollTo({
+    top :0,
+    behavior :"smooth",
+  });
+};
 function butt(){
   let pp = document.createElement("p");
   pp.className="pp";
