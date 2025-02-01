@@ -234,6 +234,7 @@ if (document.querySelector(".docs_numbers" )) {
     label_docu.classList.add("address_label");
 
     let num_docs = document.createElement("input");
+    num_docs.setAttribute("type","number");
     num_docs.classList.add( "docs_numbers","contenents_cho");
     num_docs.style.width ="105px";
     num_docs.style.backgroundColor ="lightblue";
