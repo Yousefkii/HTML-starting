@@ -231,6 +231,16 @@ ol li ::before
     counter-increment: first-counter;
     content:counter(first-counter) ;
 }
+#scroll_up{
+    border-radius: 50%;
+    background-color: lightgrey;
+    color: black;
+    padding: 13px;
+    display: none;
+    position: fixed;
+    left: 84%;
+    bottom: 6%;
+}
 #frist_group{
     position: absolute;
     height: fit-content;
