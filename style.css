@@ -187,6 +187,29 @@ body
     top: 36%;
     right: 20%;
 }
+#track_num_label{
+    position: relative;
+    top: 16%;
+    left: 36%;
+}
+#tracking_number_input{
+    height: 30px;
+    position: relative;
+    top: 29%;
+    left: -3%;
+    background-color: #9198e5;
+}
+#track_button{
+    background-color: gray;
+    color: #9198e5;
+    position :relative;
+    top: 59px;
+    left: 35%;
+}
+#track_button:hover{
+    color:gray;
+    background-color: #9198e5;
+}
 .ch{
     background-color: #389d5d;
     width: 125px;
