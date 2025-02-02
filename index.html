@@ -77,14 +77,6 @@
                 <option value="Africa">Africa</option>
                 <option value="Asia">Asia</option>
               </select>
-              <!-- <label id="global-drop-lab">your country</label>
-              <select id="contry_cho" vlaue="",placeholder="choose the country">
-                <option>choose your country</option>
-                <option> Euroupe</option>
-                <option>America</option>
-                <option>Africa</option>
-                <option>Asia</option> 
-              </select> -->
               <div id="buttooon">
               <button class="ch" id="box" onclick="package()"> package </button>
               <button class="ch" id="docu" onclick="documents()">documents</button>
@@ -95,7 +87,10 @@
 
         <div class="motions" id="second-motion">
             <h2 class="cards-headers">track it <i class="fa-solid fa-magnifying-glass-location fa-beat-fade fa-lg"></i></h2>
-            
+            <label id="track_num_label" class ="address_label"> Order Number</label>
+            <input type="number" minlength="5" class="contenents_cho" id="tracking_number_input"
+            placeholder="EX. 004728534"></input>
+            <button class="ch" id="track_button" onclick="track()">track</button>
         </div>
         
         <div class="motions" id="third-motion">
@@ -103,13 +98,6 @@
            
         </div>
     </div>
-
-
-
-
-
-
-
     <h1>the start of being rich</h1>
     <br>
     <hr>
