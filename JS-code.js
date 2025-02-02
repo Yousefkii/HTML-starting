@@ -278,6 +278,32 @@ function go_uo(){
     behavior :"smooth",
   });
 };
+function track ()
+{
+  let TRN = document.querySelector("#tracking_number_input").value;
+  
+  if (TRN === "") 
+  {
+    alert("you have to write the number first");
+    return;
+  }
+  else if(TRN.length < 5)
+  {
+    alert("the tracking number isn't right");
+    return;
+  }
+  TRN = Number(TRN);
+  let orders_numbers = [11000,12000,13000,14000,15000];
+  let checks = orders_numbers.some((e) =>{
+       return e ===TRN;
+  });
+  if (checks === true) {
+    alert("your order is on his way please be patient");
+  }
+  else{
+    alert("there is no such order number, please try again");
+  }
+};
 function butt(){
   let pp = document.createElement("p");
   pp.className="pp";
