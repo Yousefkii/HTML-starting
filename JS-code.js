@@ -1,3 +1,15 @@
+function hovering_nav() {
+   document.querySelector("#nav_links_hover").addEventListener("mouseenter", () => {
+    document.querySelectorAll(".nav-selections").forEach(el => {
+      el.style.color = "black";
+    });
+  });
+  document.querySelector("#nav_links_hover").addEventListener("mouseleave", () => {
+    document.querySelectorAll(".nav-selections").forEach(el => {
+      el.style.color = "white";
+    });
+  });
+}
 function globaly()
  {
   let sending_buttons = document.querySelector('#sending_buttons');
