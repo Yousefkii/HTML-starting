@@ -4,13 +4,25 @@ body
 }
 #header_nav
 {
-    background-color:purple;
-    height: 109px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(https://80000hours.org/wp-content/uploads/2022/10/sea-ocean-sky-night-cosmos-view-826635-pxhere.com_-scaled.jpg);
+    height: 430px;
     margin-top: -8px;
     margin-left: -8px;
     margin-right: -8px;
     margin-bottom: -21px;
     position: relative;
+   
+}
+#nav_links_hover{
+    position: relative;
+    margin-top: -84px;
+}
+#nav_links_hover:hover{
+    background-color: white;
+    transition: 0.3 ease-in-out;
 }
 #three-strips :hover {
  color: #389d5d;
@@ -47,19 +59,21 @@ body
 }
 .nav-selections
 {
-    background-color: purple;
+    background-color: transparent;
     border-color: purple;
-    color:white;
+    color: black;
+    font-weight: bolder;
     width: 200px;
-    height: 45px;
+    height: 21px;
     text-align: center;
-    margin-top: -8px;
+    margin-top: -23px;
     font-size: large;
     border: 0px;
+    position: relative;
+    margin-top: 46px;
 }
 .nav-selections:hover
 {
-    background-color:rgb(231, 98, 231) ;
     color: purple;
     font-weight: bold;
     font-style: italic;
@@ -224,6 +238,10 @@ body
     background-color: #9198e5;
     border-radius: 10px;
 }
+.address_label{
+    font-size: large;
+    font-weight: bold;
+}
 #global-drop-lab{
     font-size: large;
     font-weight: bold;
@@ -253,6 +271,129 @@ ol li ::before
 {
     counter-increment: first-counter;
     content:counter(first-counter) ;
+}
+#partners_section{
+    height: 700px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29ycG9yYXRlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D);
+    margin-top: 50px;
+}
+#countries_section{
+    margin-top: 10%;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+#contianer_partners{
+    display: flex;
+    background-image: url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29ycG9yYXRlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D) ;
+    width: 100%;
+    height: 80%;
+    background-size: auto 100%;
+}
+.countries{
+    display: flex;
+    width: 20%;
+    position: relative;
+    height: 80%;
+    background-color: #b30c6b;
+    transition: all 0.3s ease-in-out;
+}
+.countries:hover{
+    width: 25%;
+    height: 92%;
+}
+.countries_header{
+    position: relative;
+    margin-top: 20%;
+    left: 36%;
+    font-size: xx-large;
+}
+
+#eg{
+    background-image: url(https://media.cntraveler.com/photos/655cdf1d2d09a7e0b27741b5/16:9/w_1920,c_limit/Cairo%20Egypt_GettyImages-1370918272.jpg);
+    background-size: auto 100%;
+    
+}
+#china{
+    background-image: url(https://earth.org/wp-content/uploads/2022/04/Untitled-design-2022-04-14T155317.295-1200x800.jpg);
+    image-resolution: from-image 300dpi;   
+    background-size: auto 100%;
+}
+#Germany{
+    background-size: auto 100%;
+    background-image: url(https://static.toiimg.com/photo/msid-111576967,width-96,height-65.cms);
+}
+#usa{
+    background-size: auto 100%;
+    background-image: url(https://a.travel-assets.com/findyours-php/viewfinder/images/res70/483000/483799-capitol-hill.jpg);
+}
+#brazil{
+    background-size: auto 100%;
+    background-image: url(https://t4.ftcdn.net/jpg/02/43/29/05/360_F_243290527_4MGjSbuSc9pDwsHWxrS5SwYM3T7A8Fo2.jpg);
+}
+#fingerprints{
+    text-align: center;
+    color: rgb(21 45 108);
+    position: relative;
+    top: 10%;
+}
+#our_work{
+    height: 457px;
+    margin-top: -80px;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/736x/64/22/f2/6422f22981ad0a1dbaae7466e2f255da.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-mask-image: linear-gradient(to top, black 70%, transparent 100%);
+  mask-image: linear-gradient(to top, black 10%, transparent 100%);
+}
+#our_Record{
+    position: relative;
+    margin-top: 116px;
+    width: 100%;
+}
+#Record_Header{
+    position: relative;
+    left: 30%;
+    font-size: xx-large;
+
+}
+#intoAction{
+    left: 44%;
+}
+#experiance{
+    display: flex;
+    position: relative;
+    margin-top: 130px;
+    height: 300px;
+}
+.experiance_sec{
+    display: flex;
+    width: 33%;
+    height: 100%;
+}
+.experiance_header{
+    font-size: 82px;
+    position: relative;
+    left: 37%;
+    margin-top: 15px;
+
+}
+.experiance_sub_headers{
+    position: relative;
+    top: 38%;
+    left: 14%;
+    font-size: larger;
+    font-weight: bold;
+}
+.experiance_description{
+    position: relative;
+    top: 205px;
+    left: -95px;
+    font-size: larger;
 }
 #scroll_up{
     border-radius: 50%;
