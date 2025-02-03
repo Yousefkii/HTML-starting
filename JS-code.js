@@ -6,9 +6,9 @@ function globaly()
    showing.removeAttribute("hidden");
 }
 /*let recovering = document.append(showing);*/
-
+let continent_choice
 function continent(contenents_cho) {
-  let continent_choice = contenents_cho.value;
+ continent_choice = contenents_cho.value;
 
   switch (continent_choice) {
       case 'Euroupe':
@@ -258,7 +258,7 @@ if (document.querySelector(".docs_numbers" )) {
 function scrol (){
   window.scrollTo({
     left :0,
-   top :1000,
+   top :5000,
    behavior:"smooth",
 
   });
@@ -307,7 +307,7 @@ function track ()
 function butt(){
   let pp = document.createElement("p");
   pp.className="pp";
-  let cont = document.createTextNode("this is a very paragraph");
+  let cont = document.createTextNode("this is a paragraph");
   pp.appendChild(cont);
   let divo = document.querySelector("#buttooon");
   divo.appendChild(pp);
