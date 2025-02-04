@@ -395,6 +395,29 @@ ol li ::before
     left: -95px;
     font-size: larger;
 }
+#news_section{
+   width: 100%;
+   height: 700px;
+   margin-top: 30px;
+
+}
+.news_header{
+    margin-top: 6%;
+    width: 41%;
+    margin-left: 85px;
+    font-size: 33px;
+}
+#news_pic{
+    position: absolute;
+    border-radius: 47px;
+    width: 34%;
+    height: 70%;
+    left: 62%;
+    margin-top: -34%;
+    background-image: url(https://d3f3h35mrzf979.cloudfront.net/Pictures/480xany/3/2/1/81321_wettering.JPG);
+    background-size: auto 100%;
+    transition-duration: 500ms;
+}
 #scroll_up{
     border-radius: 50%;
     background-color: lightgrey;
